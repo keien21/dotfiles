@@ -1,0 +1,19 @@
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/Users/nishikawakeien/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20181117-49696-ktuse.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20181117-49696-v6ealf/byebug

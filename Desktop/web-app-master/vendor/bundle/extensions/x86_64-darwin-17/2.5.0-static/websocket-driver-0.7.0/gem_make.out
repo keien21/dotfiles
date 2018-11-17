@@ -1,0 +1,15 @@
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/Users/nishikawakeien/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20181117-49696-lpi2uo.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/nishikawakeien/Desktop/web-app-master/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20181117-49696-a4heop
