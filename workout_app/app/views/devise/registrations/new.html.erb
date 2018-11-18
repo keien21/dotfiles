@@ -1,0 +1,32 @@
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+
+  <body>
+  <div id="form">
+     <p class="form-title">ユーザー登録</p>
+     <form action="post">
+       <p>メールアドレス</p>
+       <!--<%= f.label :email %><br />-->
+       <p clss="mail">
+       <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+       </p>
+       <p clss="pass">
+       <% if @minimum_password_length %>
+       <p>6文字以上入力してください</p>
+       <% end %>
+       <%= f.password_field :password, autocomplete: "new-password" %>
+       </p>
+       <p clss="check">
+       <%= f.label :password_confirmation %><br />
+       <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+       </p>
+       <p clss="submit">
+       <%= f.submit "登録" %>
+       <%= render "devise/shared/links" %>
+       </p>
+       <% end %>
+    　　</form>
+    　</div>
+  <body>
+</html>
